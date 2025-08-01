@@ -1,0 +1,24 @@
+@import '~bpk-stylesheets/scss/base';
+
+.App {
+  text-align: center;
+  padding: $bpk-spacing-lg * 2;
+  background-color: $bpk-color-sky-gray-tint-07;
+
+  &__header {
+    background-color: $bpk-color-sky-blue;
+    padding: $bpk-spacing-lg;
+  }
+
+  &__heading {
+    color: $bpk-color-white;
+  }
+
+  &__main {
+    margin-top: $bpk-spacing-lg;
+  }
+
+  &__text {
+    margin-bottom: $bpk-spacing-base;
+  }
+}
